@@ -1,0 +1,5 @@
+Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,Parameter 3,nBlocksParameter3,Parameter 4,nBlocksParameter4,Parameter 5,nBlocksParameter5,Parameter 6,nBlocksParameter6,Parameter 7,nBlocksParameter7,ComponentLink1URL,nBlocksParameter8,Parameter 9,nBlocksParameter9,nBlocksParameter10,nBlocksParameter11,nBlocksParameter12
+
+"N1","Ticker","","1000","","","","","","","","","","","","","https://github.com/nBlocksStudioNodes/nblocks_ticker","","","","","",""
+"N2","Counter","AutoResetValue","3","","","","","","","","","","","","","https://github.com/nBlocksStudioNodes/nblocks_counter","","","","","",""
+"N3","STEPPER","MOSI","p11","MISO","p12","SCK","p13","SS","p8","pinSTEP","p26","pinDIR","p29","pinEN","p30","https://github.com/nBlocksStudioNodes/nblocks_max7219psu","p25","speed","100","10","X","false"

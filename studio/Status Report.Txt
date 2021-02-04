@@ -1,0 +1,10 @@
+Output: WireList Netlist
+Type  : WireListNetlist
+From  : Project [26D_STEPPER_test.PrjPcb]
+   Generated File[studio.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:26:15 PM On 04-Feb-21
