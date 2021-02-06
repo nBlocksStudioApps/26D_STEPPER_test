@@ -15,10 +15,13 @@ OLEDisplay                      N5
         N4         2       OUT            OUTPUT      StringFormat
         N5         1       value          INPUT       OLEDisplay
 
+[00005] NetN3_3
+        N3         3       StopPos        OUTPUT      STEPPER
+        N4         1       IN             INPUT       StringFormat
+
 [00003] NetN2_3
         N2         3       OUT            OUTPUT      Counter
         N3         1       Simple         INPUT       STEPPER
-        N4         1       IN             INPUT       StringFormat
 
 [00001] NetN1_1
         N1         1       OUT            OUTPUT      Ticker
