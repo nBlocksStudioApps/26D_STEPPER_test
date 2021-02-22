@@ -1,7 +1,7 @@
 ComponentLink1URL,Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,Parameter 3,nBlocksParameter3,Parameter 4,nBlocksParameter4,Parameter 5,nBlocksParameter5,Parameter 6,nBlocksParameter6,Parameter 7,nBlocksParameter7,nBlocksParameter8,Parameter 9,nBlocksParameter9,nBlocksParameter10,nBlocksParameter11,nBlocksParameter12,Parameter 8,Parameter 10,Parameter 11,Parameter 12
 
-"https://github.com/nBlocksStudioNodes/nblocks_ticker","N1","Ticker","","1000","","","","","","","","","","","","","","","","","","","","","",""
-"https://github.com/nBlocksStudioNodes/nblocks_counter","N2","Counter","AutoResetValue","5","","","","","","","","","","","","","","","","","","","","","",""
-"https://github.com/nBlocksStudioNodes/nblocks_stepper","N3","STEPPER","MOSI","p11","MISO","p12","SCK","p13","SS","p8","pinSTEP","p26","pinDIR","p29","pinEN","p30","p25","speed","0.001","10","1","false","pinSTOP","accel","Axis","TMC2130"
-"https://github.com/nBlocksStudioNodes/nblocks_stringformat","N4","StringFormat","formatString","""stop at %d\r""","","","","","","","","","","","","","","","","","","","","","",""
-"https://github.com/nBlocksStudioNodes/nblocks_oledisplay","N5","OLEDisplay","pinSDA","p9","pinSCL","p10","pinRST","p27","","","","","","","","","","","","","","","","","",""
+"https://github.com/nBlocksStudioNodes/nblocks_ticker","N1","Ticker","","4000","","","","","","","","","","","","","","","","","","","","","",""
+"https://github.com/nBlocksStudioNodes/nblocks_counter","N2","Counter","AutoResetValue","4","","","","","","","","","","","","","","","","","","","","","",""
+"https://github.com/nBlocksStudioNodes/nblocks_stepper","N3","STEPPER","MOSI","p11","MISO","p12","SCK","p13","SS","P0_11","pinSTEP","p26","pinDIR","p29","pinEN","p30","p25","speed","0.00004","10","1","true","pinSTOP","accel","Axis","TMC2130"
+"https://github.com/nBlocksStudioNodes/nblocks_stringformat","N4","StringFormat","formatString","""counter %d\n""","","","","","","","","","","","","","","","","","","","","","",""
+"https://github.com/nBlocksStudioNodes/nblocks_stringserial","N?","StringSerial","pinTX","USBTX","pinRX","USBRX","","","","","","","","","","","","","","","","","","","",""
