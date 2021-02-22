@@ -4,4 +4,5 @@ ComponentLink1URL,Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,n
 "https://github.com/nBlocksStudioNodes/nblocks_counter","N2","Counter","AutoResetValue","4","","","","","","","","","","","","","","","","","","","","","",""
 "https://github.com/nBlocksStudioNodes/nblocks_stepper","N3","STEPPER","MOSI","p11","MISO","p12","SCK","p13","SS","P0_11","pinSTEP","p26","pinDIR","p29","pinEN","p30","p25","speed","0.00004","10","1","true","pinSTOP","accel","Axis","TMC2130"
 "https://github.com/nBlocksStudioNodes/nblocks_stringformat","N4","StringFormat","formatString","""counter %d\n""","","","","","","","","","","","","","","","","","","","","","",""
-"https://github.com/nBlocksStudioNodes/nblocks_stringserial","N?","StringSerial","pinTX","USBTX","pinRX","USBRX","","","","","","","","","","","","","","","","","","","",""
+"https://github.com/nBlocksStudioNodes/nblocks_stringserial","N6","StringSerial","pinTX","USBTX","pinRX","USBRX","","","","","","","","","","","","","","","","","","","",""
+"https://github.com/nBlocksStudioNodes/nblocks_stringformat","N7","StringFormat","formatString","""stall at %d\n""","","","","","","","","","","","","","","","","","","","","","",""

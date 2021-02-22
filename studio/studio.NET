@@ -5,7 +5,8 @@ Ticker                          N1
 Counter                         N2             
 STEPPER                         N3             
 StringFormat                    N4             
-StringSerial                    N?             
+StringSerial                    N6             
+StringFormat                    N7             
 
 <<< Wire List >>>
 
@@ -13,7 +14,12 @@ StringSerial                    N?
 
 [00006] NetN4_2
         N4         2       OUT            OUTPUT      StringFormat
-        N?         1       TX             INPUT       StringSerial
+        N6         1       TX             INPUT       StringSerial
+        N7         2       OUT            OUTPUT      StringFormat
+
+[00005] NetN3_3
+        N3         3       StopPos        OUTPUT      STEPPER
+        N7         1       IN             INPUT       StringFormat
 
 [00003] NetN2_3
         N2         3       OUT            OUTPUT      Counter
